@@ -1,7 +1,8 @@
 {
   "functions": {
     "api/webhook.js": {
-      "bodyParser": false
+      "memory": 128,
+      "maxDuration": 10
     }
   }
 }
